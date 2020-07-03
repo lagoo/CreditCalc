@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Exercise", "1 - Exercise", "{8CC097A1-A714-4CFA-B3B7-7DBFA672EF1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Exercise", "2 - Exercise", "{59358F7D-B2EC-4DED-B743-6C11F1AE4E17}"
+	ProjectSection(SolutionItems) = preProject
+		FinancingDB\ClientPayDelayGreaterThan10Days.sql = FinancingDB\ClientPayDelayGreaterThan10Days.sql
+		FinancingDB\ClientsFiveDaysDelayd.sql = FinancingDB\ClientsFiveDaysDelayd.sql
+		FinancingDB\financingDB.sql = FinancingDB\financingDB.sql
+		FinancingDB\lientsSpPayGreaterThan60.sql = FinancingDB\lientsSpPayGreaterThan60.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Exercise", "3 - Exercise", "{7AE2EE68-59F6-499C-99B4-CEC71909AA75}"
+	ProjectSection(SolutionItems) = preProject
+		Arquitetura.txt = Arquitetura.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleCredito", "ControleCredito\ControleCredito.csproj", "{5504D6F8-75DD-4B0D-BD09-6857CDD343BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ControleCredito.UnitTests", "ControleCredito.UnitTests\ControleCredito.UnitTests.csproj", "{E1CF5587-9967-4D50-9F77-B03F10534A01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5504D6F8-75DD-4B0D-BD09-6857CDD343BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5504D6F8-75DD-4B0D-BD09-6857CDD343BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5504D6F8-75DD-4B0D-BD09-6857CDD343BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5504D6F8-75DD-4B0D-BD09-6857CDD343BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1CF5587-9967-4D50-9F77-B03F10534A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CF5587-9967-4D50-9F77-B03F10534A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CF5587-9967-4D50-9F77-B03F10534A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CF5587-9967-4D50-9F77-B03F10534A01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5504D6F8-75DD-4B0D-BD09-6857CDD343BB} = {8CC097A1-A714-4CFA-B3B7-7DBFA672EF1E}
+		{E1CF5587-9967-4D50-9F77-B03F10534A01} = {8CC097A1-A714-4CFA-B3B7-7DBFA672EF1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E1C0279-AB9A-49AF-B0C5-E87F9BF2ADB2}
+	EndGlobalSection
+EndGlobal
